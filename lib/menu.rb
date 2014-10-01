@@ -1,5 +1,20 @@
 class Menu
 
+	attr_accessor :dishes
+
 	def initialize
-	end	
+		@dishes = []
+	end
+
+	def add_dish(dish)
+		@dishes << dish
+	end
+
+	def count_dishes
+		dishes.count
+	end
+
+	# def show_menu
+	# 	dishes.each {|x| puts "#{@name}  #{@price}"}
+	# end
 end
