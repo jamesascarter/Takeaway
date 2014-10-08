@@ -6,10 +6,11 @@ class Line_item
 	def initialize (dish, quantity)
 		@dish = dish
 		@quantity = quantity
+
 	end
 
-	def quantity
-		quantity.count
+	def subtotal
+		dish.price * quantity
 	end	
 
 end

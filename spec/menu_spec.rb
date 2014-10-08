@@ -10,6 +10,4 @@ describe Menu do
 		expect(menu.count_dishes).to eq(1)
 	end	
 
-	
-
 end

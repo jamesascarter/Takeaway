@@ -13,8 +13,4 @@ class Menu
 	def count_dishes
 		dishes.count
 	end
-
-	# def show_menu
-	# 	dishes.each {|x| puts "#{@name}  #{@price}"}
-	# end
 end
