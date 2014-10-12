@@ -2,7 +2,7 @@ class Dish
 
 	attr_accessor :name, :price
 
-	def initialize(name="food", price=5)
+	def initialize(name, price)
 		@name = name
 		@price = price
 	end	

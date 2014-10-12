@@ -9,7 +9,7 @@ class Line_item
 	end
 
 	def subtotal
-		dish.price * quantity
+		@dish.price * @quantity
 	end	
 
 end

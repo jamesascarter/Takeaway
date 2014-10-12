@@ -2,7 +2,7 @@ require 'dish'
 
 describe Dish do
 
-	let (:dish) {Dish.new}
+	let (:dish) {Dish.new("kipper", 4)}
 
 	it "should have a name" do
 		expect(dish.name).to_not eq(nil)

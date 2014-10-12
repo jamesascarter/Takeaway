@@ -7,7 +7,7 @@ class Order
 	end
 	
 	def add(line_item)
-		items << line_item.subtotal
+		@items << line_item
 	end
 
 	def item_count
@@ -15,6 +15,6 @@ class Order
 	end
 
 	def calculate_total
-		items.inject{|total, dish| total + dish}
+		items.map{|item| item.subtotal}.inject{|total, element| total + element}
 	end
 end
