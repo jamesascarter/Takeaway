@@ -2,4 +2,5 @@ require './lib/dish.rb'
 require './lib/menu.rb'
 require './lib/line_item.rb'
 require './lib/order.rb'
-
+require './lib/message.rb'
+require './lib/customer.rb'
