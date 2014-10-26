@@ -12,3 +12,6 @@ Use a Gemfile to manage your gems
 Make sure that your Takeaway class is thoroughly tested and that you use mocks and/or stubs, as necessary to not to send texts when your tests are run
 However, if your Takeaway class is loaded into IRB and the order is placed, the text should actually be sent
 A free account on Twilio will only allow you to send texts to "verified" numbers. Use your mobile phone number, don't worry about the customer's mobile phone.
+
+
+Notes - Must complete testing using mocks of text message feature.
